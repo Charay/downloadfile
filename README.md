@@ -24,7 +24,7 @@ Step 2. 在module的build.gradle中添加依赖，注意修改当前版本号
 	}
 
 
-Step 2.调用下面方法：
+Step 3.调用下面方法：
 
 	//准备资源
 		String baseUrl = "https://p3.pstatp.com/";
