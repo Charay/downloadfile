@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 DownloadFileUtil.downloadFileFromServer(Constant.baseUrl,Constant.fromUri,Constant.toDir,Constant.filename);
             }
         });
