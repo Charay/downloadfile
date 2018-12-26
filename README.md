@@ -43,3 +43,11 @@ Step 3.调用下面方法：
      */
 	
 	DownloadFileUtil.downloadFileFromServer(baseUrl,fromUri,toDir,tofileName);
+###如果添加依赖后无法编译请将自己的项目版本改成28.0.0重新编译
+下面三个地方都要修改
+
+	compileSdkVersion 28
+
+	targetSdkVersion 28
+	
+	implementation 'com.android.support:appcompat-v7:28.0.0'
